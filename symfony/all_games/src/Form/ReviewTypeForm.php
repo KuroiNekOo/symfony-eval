@@ -13,7 +13,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Validator\Constraints\NotNull;
 
 
-class ReviewType extends AbstractType
+class ReviewTypeForm extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
